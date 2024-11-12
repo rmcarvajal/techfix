@@ -24,7 +24,7 @@ function renderProduct() {
     h2Price.innerHTML = "$ " + product.price
 
     let image = document.getElementById("image")
-    image.src = product.image[0]
+    image.src = product.image
 }
 
 renderProduct()
